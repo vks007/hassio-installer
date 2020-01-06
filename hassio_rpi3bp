@@ -98,11 +98,11 @@ main() {
   fi
 
   # Install ALL THE THINGS!
-  #update_hostname
-  #install_requirements
+  update_hostname
+  install_requirements
   config_network_manager
-  #install_docker
-  #install_hassio
+  install_docker
+  install_hassio
 
   # Friendly closing message
   ip_addr=$(hostname -I | cut -d ' ' -f1)
